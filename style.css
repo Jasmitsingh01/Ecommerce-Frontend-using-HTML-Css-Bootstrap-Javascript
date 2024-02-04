@@ -59,6 +59,10 @@ a{
     text-decoration: none;
 }
 
+main{
+    height:100vh;
+}
+
 /* cards coursel */
 .carousel{
     margin-bottom: 20px
