@@ -58,10 +58,12 @@ ul{
 a{
     text-decoration: none;
 }
-
+main{
+    padding-bottom: 50vh;
+}
 /* cards coursel */
 .carousel{
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .carousel-inner{
     display: flex;

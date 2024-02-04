@@ -178,10 +178,9 @@ colSecond.appendChild(loginWapper); // colSecond -> LoginWapper
 
 colSecond.appendChild(cartButton); // colSecond -> cartButton
 
-const Body = document.querySelector("body"); // SELECT BODY ELEMENT OF HTML AND INSERT BEFORE ITS FIRST ELEMENT
+const Body =document.querySelector('body'); // SELECT BODY ELEMENT OF HTML AND INSERT BEFORE ITS FIRST ELEMENT
 
-Body.insertBefore(Header, Body.children[0]);
-
+Body.insertBefore( Header,Body.childNodes[1]);
 toogleButton.onclick = toggleMenu;
 
 /* 
@@ -263,7 +262,8 @@ Footer.appendChild(row1);
 
 Footer.appendChild(p);
 
-Body.appendChild(Footer); // Adding The footer of Body
+const main = document.querySelector('main');
+main.parentNode.insertBefore(Footer,main.nextSibling)  // Adding The footer of Body
 
 
 
