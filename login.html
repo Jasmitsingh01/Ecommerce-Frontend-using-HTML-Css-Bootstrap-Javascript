@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container pt-5 w-75 m-auto px-5">
+        <h2 class="mb-4">Login Form</h2>
+        <form action="#" class=" needs-validation  mb-5" method="get" novalidate>
+          <div class="form-text">
+            <h5>Login credentials</h5>
+            Email : admin@admin.com and
+            Password : 123456
+          </div>
+          <div class="col-md-12 mb-4">
+            <label for="Email" class="fs-4 mb-2">Email</label>
+            <div class="input-group ">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input
+                type="text"
+                class="form-control"
+                id="Email"
+                aria-describedby="inputGroupPrepend"
+                placeholder="Email"
+                name="Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <label for="password" class="fs-4 mb-2">Password</label>
+
+            <input
+              type="password"
+              id="password"
+              class="form-control"
+              placeholder="Password"
+              name="password"
+              aria-describedby="passwordHelpBlock"
+            />
+            <div id="passwordHelpBlock" class="form-text">
+              Your password must be 6-20 characters long, contain letters and
+              numbers, and must not contain spaces, special characters, or
+              emoji.
+            </div>
+            <div class="invalid-feedback">Please provide a valid password.</div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn button w-100"> Login</button>
+          </div>
+        </form>
+      </div>
+    </main>
+   
+  </body>
+  <script src="bootstrap-5.3.2/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</html>

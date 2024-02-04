@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="bootstrap-5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="d-flex flex-wrap  justify-content-center align-items-center p-2 pb-0">
+        <li class="me-2"><a href="/" class="text-dark">Home</a></li>
+        <li class="me-2"><a href="All product.html" class="text-dark">All Products</a></li>
+        <li class="me-2">
+          <a href="#" class="text-dark ">
+            <div class="dropdown">
+              <div class="dropdown-head" >
+                Women <span><i class="fa-solid fa-caret-down"></i></span>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="women.html">All Products</a></li>
+                <li><a class="dropdown-item" href="#">Dresses</a></li>
+                <li><a class="dropdown-item" href="#">Pants</a></li>
+                <li><a class="dropdown-item" href="#">Skirts</a></li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li class="me-2">
+          <a href="# " class="text-dark">
+            <div class="dropdown " >
+              <div class="dropdown-head" >
+                Men <span><i class="fa-solid fa-caret-down"></i></span>
+              </div>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="men.html">All Products</a></li>
+                <li><a class="dropdown-item" href="#">Shirts</a></li>
+                <li><a class="dropdown-item" href="#">Pants</a></li>
+                <li><a class="dropdown-item" href="#">Hoodies</a></li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li class="me-2"><a href="kids.html" class="text-dark">Kids</a></li>
+        <li class="m-2"><a href="Contact.html" class="text-dark">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="banner">
+        <div class="text-light center-item w-100">
+          <h1 class="display-1">Ecommerce</h1>
+          <p>
+            Clothes that talk on behalf of you.Something for every occassion.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3 class="text-center display-1">Freautred Products</h3>
+        <div>
+          <!-- Card area -->
+          <div id="carouselExample" class="carousel slides">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <img src="images/2qnzgbhi.png" class="card-img" alt="Products" />
+                  <div class="card-body ">
+                    <h5 class="card-title">T-shirt</h5>
+                    <p class="card-text ">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn button fw-bold"><span>'<i class="fa-solid fa-cart-shopping"></i></span>Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img src="images/hoodies.jpg" class="card-img" alt="Products" />
+                  <div class="card-body ">
+                    <h5 class="card-title">Hoodies</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn button fw-bold"><span>'<i class="fa-solid fa-cart-shopping"></i></span>Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img
+                    src="images/Kids colthes.jpg"
+                    class="card-img"
+                    alt="Products"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">School Dress</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn  button fw-bold "> <span>'<i class="fa-solid fa-cart-shopping"></i></span>Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img src="images/k10ble9q.png" class="card-img" alt="Products" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pants</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn button fw-bold"><span>'<i class="fa-solid fa-cart-shopping"></i></span>Add to cart</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img src="images/kids-2.jpg" class="card-img" alt="Products" />
+                  <div class="card-body">
+                    <h5 class="card-title">kid Dress</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn button fw-bold"><span>'<i class="fa-solid fa-cart-shopping"></i></span>Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              onclick="moveLeft()"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-chevron-left text-dark fs-1"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              onclick="moveRight()"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-chevron-right text-dark fs-1"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- end card area -->
+        </div>
+      </section>
+    </main>
+  
+  </body>
+  <script src="bootstrap-5.3.2/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</html>
